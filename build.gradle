@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.rc'
+version = '0.1.0-SNAPSHOT'
+
+subprojects {
+    apply plugin: 'java'
+
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        mavenLocal()
+        mavenCentral()
+    }
+}

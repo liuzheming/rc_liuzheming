@@ -1,0 +1,7 @@
+-- CREATE DATABASE IF NOT EXISTS rc_jooq
+--     DEFAULT CHARACTER SET utf8mb4
+--     DEFAULT COLLATE utf8mb4_general_ci;
+--
+-- CREATE DATABASE IF NOT EXISTS rc_test
+--     DEFAULT CHARACTER SET utf8mb4
+--     DEFAULT COLLATE utf8mb4_general_ci;

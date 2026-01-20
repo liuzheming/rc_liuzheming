@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'rc_liuzheming'
+include 'rc-common'
+include 'rc-core'
+include 'rc-repo'
+include 'rc-app'
